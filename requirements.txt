@@ -1,0 +1,5 @@
+click==7.0
+pytest==4.6.2
+flake8==3.7.7
+dlib==19.17.0
+face-recognition==1.2.3
