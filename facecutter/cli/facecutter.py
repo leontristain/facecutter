@@ -6,7 +6,7 @@ from facecutter import cut_portrait
 @click.command(help='facecutter')
 @click.argument('source_file')
 @click.option('-o', '--output-file')
-@click.option('--portrait-size', default='200x300')
+@click.option('--portrait-size', default='400x600')
 def cli(source_file, output_file, portrait_size):
     portrait_image = cut_portrait(source_file, portrait_size)
 
