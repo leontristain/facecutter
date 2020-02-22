@@ -9,3 +9,6 @@ venv
 vim*
 test_project
 docs/_build
+build/
+dist/
+temp*

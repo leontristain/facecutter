@@ -62,4 +62,4 @@ def cut_portrait(file_path, portrait_size, fallback_bounds=None):
     else:
         raise Exception(f'Could not find a face for {file_path}')
 
-    return crop_face(image, portrait_bounds)
+    return crop_face(image, portrait_bounds), portrait_bounds
